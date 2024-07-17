@@ -4,6 +4,8 @@ import chess.ChessMatch;
 
 public class App {
     public static void main(String[] args) {
+
+        System.out.println();
     
         ChessMatch chessMatch = new ChessMatch();
 
