@@ -17,7 +17,6 @@ public class App {
         // ↧ ↧ ↧
         // java --enable-preview -cp . application.App
 
-        UI.clearScreen();
 
         Scanner sc = new Scanner(System.in);
     
@@ -26,8 +25,9 @@ public class App {
         while (true) {
 
             try {
+                UI.clearScreen();
 
-                UI.printBoard(chessMatch.getPieces());
+                UI.printMatch(chessMatch);
                 System.out.println();   
                 System.out.print("Origem: ");
                 ChessPosition source = UI.readChessPosition(sc);
