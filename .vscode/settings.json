@@ -3,5 +3,13 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
+    ],
+
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-22",
+            "path": "/usr/lib/jvm/jdk-22-oracle-x64",
+            "default": true
+        }
     ]
 }
